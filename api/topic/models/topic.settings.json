@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "topics",
+  "info": {
+    "name": "Topic"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "subtopics": {
+      "collection": "subtopics"
+    },
+    "external_resources": {
+      "collection": "external-resources"
+    }
+  }
+}

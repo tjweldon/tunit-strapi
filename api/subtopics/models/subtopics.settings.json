@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subtopics",
+  "info": {
+    "name": "Subtopics"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Summary": {
+      "type": "richtext"
+    }
+  }
+}

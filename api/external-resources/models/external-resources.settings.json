@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "external_resources",
+  "info": {
+    "name": "External Resources"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Summary": {
+      "type": "richtext"
+    },
+    "link": {
+      "model": "link"
+    }
+  }
+}
